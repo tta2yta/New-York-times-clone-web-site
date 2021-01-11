@@ -1,0 +1,32 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.menu {
+  display: flex;
+  flex-direction: row;
+}
+.menu > div{
+  background-color: #f1f1f1;
+  width: 35%;
+  /* border: 1px solid red; */
+}
+.img-logo{
+  max-width: 250px;
+  /* margin-left: 20%; */
+  margin-top: 7px;
+}
+.login{
+  text-align: right;
+}
+.div-logo{
+  text-align: center;
+}
+.login button{
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.side-menu{
+  margin-top: 10px;
+  margin-left: 10px;
+}
